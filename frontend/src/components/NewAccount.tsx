@@ -22,7 +22,7 @@ const NewAccount = ({ i18n, viteApi, networkType, vcInstance, callContract, setS
 
 	return (
 		<>
-			<p className="text-2xl">Create a Joint Account</p>
+			<h6 className="text-2xl">FlashGap</h6>
 			<TextInput
 				numeric
 				_ref={thresholdRef}
