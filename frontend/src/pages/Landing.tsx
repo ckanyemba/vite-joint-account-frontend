@@ -1,4 +1,4 @@
-import A from '../components/A';
+import A   from '../components/A';
 import { connect } from '../utils/globalContext';
 import { useTitle } from '../utils/hooks';
 import { State } from '../utils/types';

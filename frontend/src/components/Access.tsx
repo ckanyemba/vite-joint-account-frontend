@@ -14,24 +14,8 @@ const Access = ({ i18n, viteApi, networkType, vcInstance, callContract, setState
 
 	return (
 		<div className="flex flex-col gap-4">
-			<p className="text-2xl">Access your Joint Account</p>
-			<TextInput
-				numeric
-				_ref={accountIdRef}
-				disabled={!vcInstance}
-				label={i18n.accountId}
-				maxDecimals={18}
-				value={accountId}
-				onUserInput={(v) => accountIdSet(v)}
-				getIssue={(v) => {
-					if (+v <= 0) {
-						return i18n.amountMustBePositive;
-					}
-					if (+v % 1 !== 0) {
-						return i18n.positiveIntegersOnly;
-					}
-				}}
-			/>
+			<p className="text-2xl">Access Account</p>
+			
 			<button
 				className={`${
 					vcInstance ? 'bg-skin-medlight brightness-button' : 'bg-gray-400'
@@ -70,6 +54,7 @@ const Access = ({ i18n, viteApi, networkType, vcInstance, callContract, setState
 				{i18n.access}
 			</button>
 		</div>
+		     
 	);
 };
 

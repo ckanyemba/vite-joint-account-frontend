@@ -3,6 +3,7 @@ import Access from '../components/Access';
 import Deposit from '../components/Deposit';
 import MotionView from '../components/MotionView';
 import TabNavigation from '../components/TabNavigation';
+import Column from '../components/Column';
 import { connect } from '../utils/globalContext';
 import { useTitle } from '../utils/hooks';
 import { State } from '../utils/types';

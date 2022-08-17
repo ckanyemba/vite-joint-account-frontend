@@ -40,7 +40,7 @@ const About = ({ i18n }: Props) => {
 					<div className="ml-5 pl-10 border-l-4 border-skin-line-divider">
 						Under the 'New Account' tab you can choose how many votes will be needed to move the
 						account funds via the 'Threshold' field. You can add how many members you wish by
-						filling out the 'Member Address' field and pressing the 'Add member' button. When you
+						filling out the 'Member Address' field and pressing the 'Connect to Metamask' button. When you
 						are done press the 'Create Joint Account' button to create your account.
 					</div>
 				</div>

@@ -9,7 +9,7 @@ It is build with [Vite Express](https://github.com/vitelabs/vite-express) and us
 
 ## Features
 
-- Anyone can create a joint account.
+- Anyone can create a joint account.# 
 - Joint account makers can specify who can vote and the approval threshold to move funds.
 - Joint accounts can hold multiple token types.
 - Joint account members can propose a motion to move a specific token type and amount to a specific address.
